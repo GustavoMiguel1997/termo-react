@@ -1,0 +1,27 @@
+.keyboard-line {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.keyboard-line.-smallSpace {
+  margin-left: 40px;
+}
+
+.keyboard-line.-largeSpace {
+  margin-left: 10px;
+}
+
+.keyboard-line__button {
+  background-color: #270047;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+.keyboard-line__buttonline__button:hover {
+  background-color: #1a0030;
+}

@@ -1,0 +1,37 @@
+.input {
+  background-color: transparent;
+  border: 5px solid #270047;
+  border-radius: 5px;
+  color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  outline: none;
+  height: 3rem;
+  width: 3rem;
+}
+
+.input:focus {
+  box-shadow: inset 0px -5px 0px 0px #270047;
+  resize: none;
+  outline: none;
+}
+
+.input.-disabled {
+  background-color: #270047;
+}
+
+.input.-filled {
+  background-color: #270047;
+}
+
+.input.-includes {
+  background-color: #cac720;
+  border: 5px solid #817f16;
+}
+
+.input.-correct {
+  background-color: #48ca20;
+  border: 5px solid #39a718;
+}

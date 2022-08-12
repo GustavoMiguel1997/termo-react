@@ -1,0 +1,15 @@
+.button {
+  background-color: #270047;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #1a0030;
+}
